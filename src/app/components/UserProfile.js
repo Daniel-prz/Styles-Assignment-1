@@ -5,8 +5,9 @@ export default function UserProfile({ userData }) {
     <div>
       <ul className="profiledetails">
         <li>{userData.username}</li>
-        <li>{userData.bio ? userData.bio : "no biography available"}</li>
+        <li className="bio">{userData.bio ? userData.bio : "no biography available"}</li>
         <ul>
+          hobbies:
           {userData.hobbies
             ? userData.hobbies.map((hobby, index) => (
                 <li key={index}>{hobby}</li>

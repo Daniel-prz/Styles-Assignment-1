@@ -9,7 +9,7 @@ export default function Profile() {
     hobbies: ["Going on walks in the local park", "Woodworking", "Gardening"],
   };
   return (
-    <div>
+    <div className="profilediv">
       <Header />
       <UserProfile userData={UserData} />
     </div>
