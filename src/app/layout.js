@@ -1,7 +1,4 @@
-import { Inter } from "next/font/google";
-import "./Sass-template/styles.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import "./SCSS/styles.css";
 
 export const metadata = {
   title: "Style Assignment 1",
@@ -11,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

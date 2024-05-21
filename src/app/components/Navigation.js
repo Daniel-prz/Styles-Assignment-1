@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Navigation() {
   return (
     <nav className="page-navigation">
-      <ul>
+      <ul className="page-navigation__ul">
         <li>
           <Link className="link" href="/">
             Home
