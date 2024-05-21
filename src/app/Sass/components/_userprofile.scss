@@ -1,0 +1,6 @@
+.profiledetails {
+  @include flex(column, center, center, 20px);
+  .bio {
+    max-width: 450px;
+  }
+}

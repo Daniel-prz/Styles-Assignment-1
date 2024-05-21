@@ -1,0 +1,14 @@
+.page-navigation__ {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  &ul {
+    @include flex(row, center, center, 25px);
+    li {
+      @include font(1.5rem, sans-serif, none, black);
+    }
+    .link {
+      text-decoration: none;
+      color: rgb(18, 33, 112);
+    }
+  }
+}

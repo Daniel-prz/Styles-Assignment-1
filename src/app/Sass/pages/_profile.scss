@@ -1,0 +1,4 @@
+.profilediv {
+  @include flex(column, normal, center, 0);
+  height: 100vh;
+}

@@ -1,4 +1,4 @@
-import "./SCSS/styles.css";
+import "./Sass/styles.css";
 
 export const metadata = {
   title: "Style Assignment 1",
